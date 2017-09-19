@@ -1,0 +1,69 @@
+* {
+	font-family: tahoma;
+	font-size: 16px;
+}
+body {
+	
+	background-image: url("cb025071.jpg");
+	margin: 0 12%;
+}
+header {
+	height: 70px;
+}
+footer {
+	height: 50px;
+}
+.logo {
+	float: left;
+}
+.logo img {
+	width: 60px;
+	float: left;
+}
+.logo-text {
+	float: left;
+	margin: 20px 10px;
+}
+.menu {
+	float: right;
+}
+li {
+	display: inline;
+	margin: 0 20px;
+}
+.cuc-bai-viet {
+	width: 35%;
+	height: 300px;
+	float: left;
+	background-color: green;
+	margin: 60px;
+	border: 10px solid #aaffff;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.clear-both {
+	clear: both;
+}
+section div header {
+	text-align: center;
+	color: red;
+	font-size: 25px;
+	padding-top: 12px;
+}
+section div section {
+	text-indent: 20px;
+	text-align: justify;
+	font-size: 13px;
+	padding-left: 15px;
+	padding-right: 6px;
+}
+footer {
+	text-align: center;
+	position: fixed;
+	bottom: 2px;
+	right: 0;
+	width: 260px;
+	height: 20px;
+	border: 1px solid yellow;
+	background-color: powderblue;
+}
